@@ -70,7 +70,7 @@ const TaskCreationForm = () => {
           status: "todo", // Reset status
           id: "",
         });
-      }, 2000); // Simulating 2 seconds delay
+      }, 1000); // Simulating 2 seconds delay
     }
   };
   /*
