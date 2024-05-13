@@ -1,5 +1,6 @@
 {
   "name": "task-manager-app",
+  "homepage": "https://NidhinaJustin.github.io/task-managing-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,11 +16,15 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.2.2",
+    "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
+
