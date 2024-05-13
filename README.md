@@ -14,14 +14,14 @@
 * Styling: Employed Reactstrap and Material UI.
 ## Demo
 You can find a live demo of the application here. 
-### https://nidhinajustin.github.io/task-managing-app/
+### https://nidhinajustin.github.io/task-manager-app/
 
 ## Installation
 To run this project locally, follow these steps:
 * Clone the repository:
-  git clone https://github.com/NidhinaJustin/task-managing-app.git
+  git clone https://github.com/NidhinaJustin/task-manager-app.git
 * Navigate to the project directory :
-  cd task-managing-app
+  cd task-manager-app
 * Install dependencies :
   npm install
 ## Usage
