@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 .App-header {
   background-color: #ccd0d6;
 }
@@ -24,7 +27,6 @@
   color: white;
   padding: 10px;
   border-radius: 5px;
-  width: 100%;
 }
 .sidebar {
   background-image: linear-gradient(#808b96, #aeb6bf);
@@ -37,7 +39,6 @@
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-  width: 100%;
 }
 .sidebar h1 {
   color: white;
