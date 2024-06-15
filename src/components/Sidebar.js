@@ -20,7 +20,7 @@ export default function Sidebar() {
   ];
   return (
     <>
-      <h1>Tuktu</h1>
+      <h1>Task Manager</h1>
       {sideBarList.map((item) => (
         <p
           disabled={item.disabled}
